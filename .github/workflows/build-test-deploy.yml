@@ -23,4 +23,10 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
+      - run: npm install --save-dev @next/eslint-plugin-next
+ 
+      - run: yarn add --dev @next/eslint-plugin-next
+      - run: pnpm add --save-dev @next/eslint-plugin-next
+ 
+      - run: bun add --dev @next/eslint-plugin-next
       - run: npm test
