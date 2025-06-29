@@ -26,7 +26,7 @@ jobs:
       - run: npm install --save-dev @next/eslint-plugin-next
  
       - run: yarn add --dev @next/eslint-plugin-next
-      - run: pnpm add --save-dev @next/eslint-plugin-next
+      - run: npm add --save-dev @next/eslint-plugin-next
  
       - run: bun add --dev @next/eslint-plugin-next
       - run: npm test
